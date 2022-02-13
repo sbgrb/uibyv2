@@ -1,0 +1,22 @@
+{
+  "name": "uibyv2",
+  "version": "0.0.1",
+  "description": "UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbgrb/uibyv2.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "my",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbgrb/uibyv2/issues"
+  },
+  "homepage": "https://github.com/sbgrb/uibyv2#readme"
+}
