@@ -33,7 +33,9 @@
         }
     </style>
     <style>
-
+        .box{
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +46,14 @@
     <g-button icon="setting">
         按钮
     </g-button>
-    <g-input value="张三"/>
+    <div class="box">
+        <g-input value="张三" disabled></g-input>
+        <g-input value="李四" readonly></g-input>
+        <g-input value="王五"></g-input>
+    </div>
+    <div class="box">
+        <g-input value="王" error="姓名不能少于两个字"></g-input>
+    </div>
 </div>
 <script src="./src/app.js"></script>
 <script src="https://at.alicdn.com/t/font_3228139_3sowpttqyav.js?spm=a313x.7781069.1998910419.48&file=font_3228139_3sowpttqyav.js"></script>
